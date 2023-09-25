@@ -1,6 +1,5 @@
 FROM node:18-alpine
 WORKDIR  /app/frontend
-COPY package*.json ./
-RUN npm ci --production
+RUN npm install
 
 CMD ["npm","run","start"]
