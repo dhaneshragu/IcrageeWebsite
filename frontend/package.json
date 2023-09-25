@@ -11,6 +11,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "/8icragee",
   "scripts": {
     "start": "PORT=8111 react-scripts start",
     "build": "react-scripts build",
